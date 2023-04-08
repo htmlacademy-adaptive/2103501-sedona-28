@@ -1,1 +1,18 @@
-// Начните писать стили здесь
+@import "common/fonts.scss";
+@import "common/variables.scss";
+@import "common/global.scss";
+@import "common/main-header.scss";
+@import "common/main-footer.scss";
+@import "common/main-nav.scss";
+@import "common/promo.scss";
+@import "blocks/index/advantages.scss";
+@import "blocks/index/description.scss";
+@import "blocks/index/maps.scss";
+@import "blocks/index/search-hotel.scss";
+@import "blocks/photo/content.scss";
+@import "blocks/photo/photo-video-header.scss";
+@import "blocks/photo/likes.scss";
+@import "blocks/photo/video.scss";
+@import "blocks/form/feedback.scss";
+@import "blocks/form/form.scss";
+@import "common/visually-hidden.scss";
