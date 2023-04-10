@@ -1,0 +1,46 @@
+.advantages__title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 26px;
+  color: $white;
+  text-transform: uppercase;
+}
+
+.advantages__number {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: $white;
+}
+
+.advantages__text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: $white;
+  text-transform: uppercase;
+}
+
+.advantages__name {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 26px;
+  color: $black;
+  text-transform: uppercase;
+}
+
+.advantages__description {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: $black-shaft;
+  text-transform: uppercase;
+}
+
+.advantages__item--blue {
+  background: $light-blue;
+}
+
+.advantages__item--grey {
+  background: $grey;
+}
