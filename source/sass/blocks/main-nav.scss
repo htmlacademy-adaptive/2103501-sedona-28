@@ -1,0 +1,73 @@
+
+@media (min-width: $tablet-width) {
+  .main-nav__toggle {
+    display: none;
+  }
+}
+
+.main-nav__item {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 26px;
+}
+
+.main-nav__list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  width: 320px;
+
+
+  @media (min-width: $tablet-width) {
+    display: flex;
+    width: $tablet-width;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: $desktop-width;
+  }
+}
+
+.main-nav__link {
+  color: $white;
+  font-size: 14px;
+  font-weight: bold;
+  text-decoration: none;
+  display: block;
+  padding: 17px 10px 12px 10px;
+  background-color: $light-blue;
+  box-shadow: 0 1px 0 rgba(1, 1, 1, 0.2), inset 0 1px 0 rgba(255, 255, 255, 0.2);
+
+  @media (min-width: $tablet-width) {
+    color: $black;
+    background-color: $white;
+    padding: 18px;
+    min-width: 140px;
+    max-width: 153px;
+    box-shadow: none;
+  }
+
+  @media (min-width: $desktop-width) {
+    min-width: 200px;
+    max-width: 240px;
+  }
+}
+
+.main-nav__item--place-logo-left {
+  @media (min-width: $tablet-width) {
+    margin-right: 75px;
+  }
+
+  @media (min-width: $desktop-width) {
+    margin-right: 75px;
+  }
+}
+
+.main-nav__item--place-logo-right {
+  @media (min-width: $tablet-width) {
+    margin-left: 75px;
+  }
+}
+

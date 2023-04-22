@@ -1,4 +1,14 @@
-.photo-video-header__title {
+.search-hotel__container {
+  padding-top: 38px;
+  margin-bottom: 49px;
+  width: 284px;
+
+  @media (min-width: $tablet-width) {
+    width: 435px;
+  }
+}
+
+.search-hotel__title {
   font-weight: 700;
   font-size: 18px;
   line-height: 26px;
@@ -6,7 +16,7 @@
   text-transform: uppercase;
 }
 
-.photo-video-header__text {
+.search-hotel__text {
   font-weight: 400;
   font-size: 14px;
   line-height: 21px;

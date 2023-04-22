@@ -1,0 +1,31 @@
+.photo-video-header__container {
+  padding: 36px 0 25px 0;
+  width: 280px;
+
+  @media (min-width: $tablet-width) {
+    padding: 66px 0 67px 0;
+    width: 458px;
+  }
+
+  @media (min-width: $desktop-width) {
+    padding: 100px 0 65px 0;
+  }
+}
+
+.photo-video-header__title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 26px;
+  color: $black;
+  text-transform: uppercase;
+  padding-bottom: 10px;
+}
+
+.photo-video-header__text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: $black-shaft;
+  text-transform: uppercase;
+}
+
