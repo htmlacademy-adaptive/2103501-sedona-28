@@ -1,0 +1,70 @@
+
+//VisitSedona ХЭШТЕГ
+.main-footer__hashtag {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: $black;
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 26px;
+  padding-top: 33px;
+}
+
+.main-footer__container {
+  padding-top: 33px;
+  padding-bottom: 30px;
+}
+
+///
+
+
+.main-footer {
+  display: flex;
+  flex-direction: column;
+
+  @media (min-width: $tablet-width) {
+    flex-direction: row;
+    padding: 74px 60px;
+    justify-content: space-between;
+  }
+
+  @media (min-width: $desktop-width) {
+    padding: 120px;
+  }
+}
+
+
+///Соц сети
+.social__list {
+  display: flex;
+  justify-content: center;
+}
+
+.social__item {
+  width: 48px;
+  height: 48px;
+  background-color: $light-blue;
+  margin-right: 6px;
+}
+
+.social__link {
+  display: flex;
+  padding: 13px;
+}
+
+.reset-list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+//
+.main-footer__copyright {
+  padding-top: 30px;
+}
+
+.main-footer__copyright-text {
+  color: $black;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+}

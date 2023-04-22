@@ -1,0 +1,24 @@
+.promo {
+  width: 320px;
+  background-color: #4c77a1;
+  background-image: url(../../img/index/prime-background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #ffffff;
+  padding-top: 91px;
+  padding-bottom: 85px;
+}
+
+@media (min-width: $tablet-width) {
+  .promo {
+    width: $tablet-width;
+    padding-top: 77px;
+    padding-bottom: 91px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .promo {
+    width: $desktop-width;
+  }
+}

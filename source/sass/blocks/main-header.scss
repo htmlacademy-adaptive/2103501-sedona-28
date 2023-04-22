@@ -1,0 +1,28 @@
+.main-header {
+  width: $mobile-width;
+  position: relative;
+
+  @media (min-width: $tablet-width) {
+    display: flex;
+    width: $tablet-width;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: $desktop-width;
+  }
+}
+
+.main-header__logo {
+  width: 185px;
+  height: 56px;
+  display: flex;
+  margin: 0 auto;
+  position: relative;
+
+  @media (min-width: $tablet-width) {
+    position: absolute;
+    top: 0;
+    right: 50%;
+    margin-right: -92.5px;
+  }
+}
